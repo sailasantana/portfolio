@@ -1,0 +1,102 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+  .name {
+  font-family: 'Dancing Script', cursive;
+    line-height: 1.4;
+  
+  }
+  
+  .intro {
+  font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+  }
+  
+  .about {
+    background-color: rgb(19, 19, 20);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+  
+    
+  }
+  
+  
+  .aboutMe {
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left:50px;
+   
+  
+   
+  }
+  
+  .parent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-bottom: 150px;
+   ;
+  }
+  
+  /*need help fixing this image - it disappears when I shrink the viewport */
+  .heading {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    margin-bottom:20px;
+    
+  }
+  
+  .projects{
+    background-color: rgb(19, 19, 20);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+  
+  
+  }
+  
+  .quizApp , .apiCapstone {
+    margin-top: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+  
+  }
+  
+  
+  
+  
+  
+  .bold {
+    font-weight: bold;
+    
+  }
+  
+  .paragraph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  
