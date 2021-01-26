@@ -1,17 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
 html {
     scroll-behavior: smooth;
   }
   
   
   .name {
-  font-family: 'Dancing Script', cursive;
-    line-height: 1.4;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.0;
+    
+
   
   }
   
   .intro {
   font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+    font-size: 19px;
   }
   
   .about {
@@ -53,7 +64,6 @@ html {
    ;
   }
   
-  /*need help fixing this image - it disappears when I shrink the viewport */
   .heading {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;

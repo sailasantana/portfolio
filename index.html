@@ -12,6 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="menu-wrap">
@@ -21,9 +23,10 @@
         <div>
           <div>
             <ul>
-              <li> <a href="#">About Me</a></li>
-              <li> <a href="#">Projects</a></li>
-              <li> <a href="#">Contact</a></li>
+              <li> <a href="#" id ='homeNav'>Home</a></li>
+              <li> <a href="#"  id ='aboutNav'>About Me</a></li>
+              <li> <a href="#" id = 'projectsNav'>Projects</a></li>
+              <li> <a href="#" id= 'contactNav'>Contact</a></li>
               </ul>
               </div>
               </div>
@@ -32,13 +35,12 @@
 
               <header class="showcase">
               <div class="container showcase-inner">
-                <h1 class = "name">Saila Santana </h1>
-                <h2 class = "intro">I'm a passionately curious full stack developer based in Brooklyn, New York. </h2>
+                <h1 class = "name">Hi, <span style = "display: block;" >I'm Saila.</span>  <span style = "display: block;" class = "intro">I'm a full stack developer living and learning in Brooklyn, New York &#9996;</span> </h1>
                 
 
           </div>
-      <div class = "about">    
-      <section class= "aboutMe">
+      <div class = "about hidden">    
+      <section class= "aboutMe ">
       <p class="paragraph">
       What do I love about Web developement? Glad you asked! I love the intersection of <span class = "bold"> Process improvement (a.k.a Automation), User Experience and Problem Solving </span> to deliver effective business outcomes for clients/experiences for users. I also love playing code architect and building something out of nothing - it is incredibly empowering.  
       </p>
@@ -62,7 +64,7 @@
 
 
 
-    <div class= "projects" > 
+    <div class= "projects hidden" > 
       <section>
         <a href="screenshot">
           <img class= "quizApp" src = "https://www.painweek.org/sites/medical/painweek/files/adb9ca%26text%3DIMAGE%2BHOLDER%26font%3Dkelson%20(1).png" height="350" width = "470">
@@ -74,8 +76,8 @@
     </div>
 
 
-      <div class="wrapper">    
-        <section role ="contact">
+      <div class="wrapper ">    
+        <section role ="contact" class = 'hidden'>
           <h2 class="heading connect">Let's connect!</h2>
           <h3 class = "subHeading">I talk to everyone...all people and all puppies. </h3>
           <div class="media">

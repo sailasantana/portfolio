@@ -1,7 +1,10 @@
 :root {
-    --primary-color: rgba(0, 0, 0, 0.445);
-    --overlay-color: rgba(0, 0, 0, 0.925);
-    --menu-speed : 1.0s;
+    --overlay-color: rgba(192, 81, 81, 0.947);;
+    --menu-speed : 1.5s;
+  }
+
+  .hidden {
+    display: none;
   }
   
   *{
@@ -13,7 +16,7 @@
   
   
   .container {
-    max-width: 960px;
+   /* max-width: 2060px;*/
     margin: auto;
     overflow: hidden;
     padding: 0.3rem;
@@ -22,36 +25,46 @@
   
   .showcase {
     background-color: var(--primary-color);
-    color: #fff;
     height: 100vh;
     position: relative;
   }
   
+  
   .showcase:before {
     content: '';
-    background: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/2-brooklyn-bridge-in-black-and-white-nicole-freedman.jpg') no-repeat center center/cover;
+    background: url('https://miro.medium.com/max/600/1*kMJxJDn3NqZJ7PE950KV9w.gif') no-repeat center center/cover;
     position:absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height:100%;
     z-index: -1;
+
     
     
   }
+
   
   .showcase .showcase-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     height: 100%;
   
   }
   
+  
   .showcase h1 {
-    font-size: 4.0rem;
+    margin-left:700px;
+    color: rgb(209, 118, 118);
+    font-size: 6.0rem;
+  }
+
+  .showcase h2 {
+    color: rgb(214, 122, 122);
+    font-size: 1.2rem;
   }
   
   .showcase p {
@@ -99,7 +112,7 @@
     flex: none;
     width: 100%;
     height: 2px;
-    background: #fff;
+    background: rgb(199, 198, 206);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,6 +194,7 @@
   .menu-wrap .menu > div > div {
     text-align: center;
     max-width: 90vw;
+    
     max-height: 100vh;
     opacity: 0;
     transition: opacity 0.4s ease;
