@@ -1,7 +1,6 @@
 // navigate through the app with event listener
 function navigationListener() {
     $("#aboutNav").on("click", function(event) {
-        console.log('clicked')
       $(".about").fadeIn(400).removeClass(".hidden"); 
       $(".container, .projects , .contact").hide().addClass('hidden'); 
     });
