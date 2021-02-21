@@ -86,13 +86,6 @@ html {
   
   }
   
-  .quizApp , .apiCapstone {
-    margin-top: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
-  
-  }
-  
    
   .bold {
     font-weight: bold;
@@ -103,9 +96,88 @@ html {
     padding-top: 8px;
     padding-bottom: 8px;
   }
+
+/* css for live and repo buttons */  
   
-.live, .repo {
+:root {
+  --colorShadeA: #f07469;
+  --colorShadeB: #e6746a;
+  --colorShadeC: #ed9e97;
+  --colorShadeD: #dd958f;
+  --colorShadeE: #ffe0e0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+.link{
+  text-decoration: none;
+  color: #f06b5f;
+}
+
+.option-container {
+  font-family: 'OpenSans', sans-serif;
+}
+.live-button, .repo-button {
   display: inline;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 30px;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: 1.0rem;
+    color:var(--colorShadeA);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: inherit;
+  
+}
+
+.live-button, .repo-button {
+   padding: 0.2em 0.7em;
+   border: 2px solid var(--colorShadeA);
+  border-radius: 1em;
+  background: var(--colorShadeE);
+transform-style: preserve-3d;
+   transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+.live-button::before,.repo-button::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--colorShadeC);
+  border-radius: inherit;
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+ transform: translate3d(0, 0.75em, -1em);
+     transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+
+.live-button:hover, .repo-button:hover {
+  background: var(--colorShadeD);
+  transform: translate(0, 0.375em);
+}
+
+.live-button:hover::before, .repo-button:hover::before {
+  transform: translate3d(0, 0.75em, -1em);
+}
+
+.live-button:active , .repo-button:active {
+            transform: translate(0em, 0.75em);
+}
+
+.live-button:active::before , .repo-button:active::before{
+  transform: translate3d(0, 0, -1em);
+  
+      box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+
 }
 
 
@@ -127,6 +199,7 @@ html {
 
 .option-container{
   display: inline;
+  padding:10px;
 }
 
 .screenshot-container{
@@ -134,10 +207,45 @@ html {
 }
 
 .app-title{
-  font-size: 20px;
+  font-size: 25px;
   color: white;
+  padding:10px;
 }
 
+.app-description {
+  font-size: 18px;
+  padding:10px;
+
+
+}
+
+.app-tech{
+  font-size: 18px;
+  padding:10px;
+
+
+}
+
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+
+.project-container{
+  border : 1px solid white;
+  width:330px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.project-image{
+  width: 100%;
+  height: 200px;
+}
 /*tablet media query*/
 @media screen and (min-width: 768px){
   .aboutMe {

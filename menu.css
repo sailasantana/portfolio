@@ -13,8 +13,7 @@
     padding: 0;
   }
   
-  
-  
+    
   .container {
    /* max-width: 2060px;*/
     margin: auto;
@@ -36,13 +35,10 @@
     top: 0;
     left: 0;
     z-index: -1;
-
-    
-    
+   
   }
 
-  
-  .showcase .showcase-inner {
+    .showcase .showcase-inner {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -64,7 +60,7 @@
     font-size: 1.2rem;
   }
   
-  .showcase p {
+  .showcase paragraph {
     font-size: 1.0rem;
   }
   
@@ -76,8 +72,7 @@
     left: 0;
     z-index: 1;
   }
-  
-  
+    
   .menu-wrap .toggler {
     position: absolute;
     top: 0;
@@ -211,7 +206,7 @@
   }
  
   /*tablet media query*/
-@media screen and (min-width: 768px){
+ @media screen and (min-width: 768px){
   .showcase:before {
     content: '';
     position:absolute;
@@ -232,10 +227,6 @@
     font-size: 2.2rem;
   }
   
-  .showcase p {
-    font-size: 2.0rem;
-  }
-
 }
 
   /*media query for desktop*/

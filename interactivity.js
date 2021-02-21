@@ -5,23 +5,23 @@ function navigationListener() {
       $(".about").fadeIn(400).removeClass(".hidden"); 
       $(".container, .projects , .contact").hide().addClass('hidden'); 
     });
-  
+
     $("#projectsNav").on('click', function(event) {
       $(".projects").fadeIn(400).removeClass(".hidden"); 
-      $(".container,.contact,.about ").hide().addClass('hidden');     });
+      $(".container,.contact,.about ").hide().addClass('hidden');     
+    });
   
     $('#contactNav').on('click', function(event){
       $(".contact").fadeIn(400).removeClass('.hidden');
-      $(".container,.projects,.about ").hide().addClass('hidden');     });
-    
-  
+      $(".container,.projects,.about ").hide().addClass('hidden');     
+    });
+     
     $('#homeNav').on('click', function(event){
       $(".container").fadeIn(400).removeClass('.hidden');
       $(".contact,.projects,.about").hide().addClass('hidden');
     })
   }
   
-  
-  
+   
   
   $(navigationListener)
