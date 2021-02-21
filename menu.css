@@ -1,5 +1,5 @@
 :root {
-    --overlay-color: rgba(192, 81, 81, 0.947);;
+    --overlay-color: rgba(216, 115, 115, 0.858);;
     --menu-speed : 1.5s;
   }
 
@@ -32,12 +32,9 @@
   
   .showcase:before {
     content: '';
-    background: url('https://miro.medium.com/max/600/1*kMJxJDn3NqZJ7PE950KV9w.gif') no-repeat center center/cover;
     position:absolute;
     top: 0;
     left: 0;
-    width: 50%;
-    height:100%;
     z-index: -1;
 
     
@@ -57,13 +54,13 @@
   
   
   .showcase h1 {
-    margin-left:700px;
-    color: rgb(209, 118, 118);
+    margin-left:auto;
+    color: #ec8c84;
     font-size: 6.0rem;
   }
 
   .showcase h2 {
-    color: rgb(214, 122, 122);
+    color: #ec8c84;
     font-size: 1.2rem;
   }
   
@@ -212,7 +209,64 @@
     text-decoration: none;
     transition: color 0.4s ease;
   }
+ 
+  /*tablet media query*/
+@media screen and (min-width: 768px){
+  .showcase:before {
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   
+  }
+
+  .showcase h1 {
+    margin:auto;
+    color: #ec8c84;
+    font-size: 7.0rem;
+  }
+
+  .showcase h2 {
+    color: #ec8c84;
+    font-size: 2.2rem;
+  }
   
+  .showcase p {
+    font-size: 2.0rem;
+  }
+
+}
+
+  /*media query for desktop*/
+@media screen and (min-width: 1025px) {
+ 
+  .showcase:before {
+    content: '';
+    background: url('https://miro.medium.com/max/600/1*kMJxJDn3NqZJ7PE950KV9w.gif') no-repeat center center/cover;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height:100%;
+    z-index: -1;
+   
+  }
+
+  .showcase h1 {
+    margin-left:750px;
+    color: #ec8c84;
+    font-size: 6.0rem;
+  }
+
+  .showcase h2 {
+    color: #ec8c84;
+    font-size: 1.2rem;
+  }
   
+
+}
+
+
   
   

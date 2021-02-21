@@ -1,23 +1,9 @@
-/* .wrapper {
-    background-color: rgb(19, 19, 20);
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.4;
-    color: #fff;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: right;
-    justify-content: center;
-    text-align: center;
-  
-  } */
   
   
   .socialIcon:hover {
   
-    color: #3dadee;
-    border: 1px solid  #3dadeead;
+    color: #1e24ba;
+    border: 1px solid  #1e24ba;
     transition: .5s;
   }
   
@@ -39,15 +25,16 @@
   
   .subHeading {
     padding-bottom: 20px;
-    font-size: 15px;
+    font-size: 25px;
+
   }
+    
   
-  
-  
-  .connect {
-  
-    margin-top: 250px;
+  .contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
-  
   
   

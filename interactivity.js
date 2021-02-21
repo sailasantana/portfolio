@@ -2,24 +2,23 @@
 function navigationListener() {
     $("#aboutNav").on("click", function(event) {
         console.log('clicked')
-      $(".about").fadeIn().removeClass(".hidden"); 
-      $(".container").hide(); 
+      $(".about").fadeIn(400).removeClass(".hidden"); 
+      $(".container, .projects , .contact").hide().addClass('hidden'); 
     });
   
-    // $("#home-link").on('click', function(event) {
-    //   $(".intro").fadeIn(); 
-    //   $(".map").hide().addClass("hidden"); 
-    // });
+    $("#projectsNav").on('click', function(event) {
+      $(".projects").fadeIn(400).removeClass(".hidden"); 
+      $(".container,.contact,.about ").hide().addClass('hidden');     });
   
-    // $('#form-link').on('click', function(event){
-    //   $(".form").fadeIn().removeClass('.hidden');
-    //   $(".map").hide().addClass('hidden');
-    // });
+    $('#contactNav').on('click', function(event){
+      $(".contact").fadeIn(400).removeClass('.hidden');
+      $(".container,.projects,.about ").hide().addClass('hidden');     });
+    
   
-    // $('#search-link').on('click', function(event){
-    //   $(".map").fadeIn().removeClass('.hidden');
-    //   $(".form").hide().addClass('hidden');
-    // })
+    $('#homeNav').on('click', function(event){
+      $(".container").fadeIn(400).removeClass('.hidden');
+      $(".contact,.projects,.about").hide().addClass('hidden');
+    })
   }
   
   

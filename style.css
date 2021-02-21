@@ -13,9 +13,7 @@ html {
   
   .name {
     font-family: 'Playfair Display', serif;
-    line-height: 1.0;
-    
-
+    line-height: 1.0;   
   
   }
   
@@ -26,13 +24,15 @@ html {
   }
   
   .about {
-    background-color: rgb(19, 19, 20);
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
+    border : 1px solid #ec8c84;
+    background-color: #ec8c84;
+    font-family: 'orpheuspro', serif; 
     color: #fff;
     display: flex;
     flex-direction: column;
-    
+    min-height: 100vh;
+    margin-top:0px;
+
   
     
   }
@@ -40,15 +40,14 @@ html {
   
   .aboutMe {
     position: relative;
-    font-size: 15px;
+    font-size: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
     text-align: center;
     margin-top: 50px;
-    margin-right: 50px;
-    margin-left:50px;
+    margin-right: auto;
+    margin-left: auto;
    
   
    
@@ -74,8 +73,8 @@ html {
   }
   
   .projects{
-    background-color: rgb(19, 19, 20);
-    font-family: 'Roboto', sans-serif;
+    background-color: #ec8c84;
+    font-family: 'orpheuspro', serif; 
     line-height: 1.4;
     color: #fff;
     display: flex;
@@ -83,8 +82,7 @@ html {
     justify-content: center;
     text-align: center;
     align-items: center;
-  
-  
+    min-height: 100vh;
   
   }
   
@@ -95,18 +93,88 @@ html {
   
   }
   
-  
-  
-  
-  
+   
   .bold {
     font-weight: bold;
     
   }
   
   .paragraph{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   
+.live, .repo {
+  display: inline;
+}
+
+
+.contact{ 
+  background-color: #ec8c84;
+  font-family: 'orpheuspro', serif; 
+  min-height: 100vh;
+  line-height: 1.4;
+  color: #fff;
+  border : 1px solid #ec8c84;
+  margin-top: 0px;
+
+}
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.option-container{
+  display: inline;
+}
+
+.screenshot-container{
+  display: inline;
+}
+
+.app-title{
+  font-size: 20px;
+  color: white;
+}
+
+/*tablet media query*/
+@media screen and (min-width: 768px){
+  .aboutMe {
+    position: relative;
+    font-size: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 150px;
+    margin-left:150px;
+   
   
+   
+  }  
+
+}
+
+/*media query for desktop*/
+@media screen and (min-width: 1025px) {
+
+  .aboutMe {
+    position: relative;
+    font-size: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 370px;
+    margin-left:370px;
+   
+  
+   
+  } 
+
+
+
+}
