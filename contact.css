@@ -11,6 +11,10 @@
     text-decoration: none;
     color: white;
   }
+
+  .hidden {
+    display: none;
+  }
   
   
   .socialIcon {

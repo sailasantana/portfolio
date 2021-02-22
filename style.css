@@ -180,6 +180,9 @@ transform-style: preserve-3d;
 
 }
 
+.puppy-emoji {
+  padding: 5px;
+}
 
 .contact{ 
   background-color: #ec8c84;
@@ -274,8 +277,9 @@ transform-style: preserve-3d;
   
   .all-projects-container{
   
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     max-width: 750px;
     padding-top: 30px;
     margin: auto;
@@ -322,8 +326,9 @@ transform-style: preserve-3d;
 
 .all-projects-container{
 
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
   max-width: 750px;
   padding-top: 30px;
   margin: auto;
