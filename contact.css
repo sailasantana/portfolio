@@ -19,20 +19,21 @@
   
   .socialIcon {
     list-style: none;
-    margin: 10px 30px;
+    margin: 10px 10px;
     display: inline-block;
     font-size: 20px;
     padding: 15px 20px;
-    border: 1px solid #fff;
+    border: 1px solid rgb(236, 183, 183);
     border-radius: 50%;
     transition: .5s;
   
   
   }
   
-  .subHeading {
+  .subheading {
     padding-bottom: 20px;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
 
   }
     
@@ -44,4 +45,28 @@
     align-items: center;
   }
   
+  /* tablet and desktop media query */
+  @media screen and (min-width: 768px){
+
+  .subheading {
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-align: center;
   
+  }
+
+      
+  .socialIcon {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 20px;
+    border: 1px solid rgb(236, 183, 183);
+    border-radius: 50%;
+    transition: .5s;
+  
+  
+  }
+
+  }
