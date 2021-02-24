@@ -14,7 +14,7 @@ function navigationListener() {
   
     $('#contactNav').on('click', function(event){
       $(".toggler").prop("checked", false);
-      $(".wrapper").fadeIn(400).addClass('contact').removeClass('hidden');
+      $(".wrapper, .contact").fadeIn(400).addClass('contact').removeClass('hidden');
       $(".container,.projects,.about").hide().addClass('hidden');     
     });
      
