@@ -36,6 +36,14 @@
     text-align: center;
 
   }
+
+
+    
+  .wrapper{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
     
   
   .contact{
