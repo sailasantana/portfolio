@@ -6,7 +6,7 @@ function navigationListener() {
       $(".container, .projects , .contact").hide().addClass('hidden'); 
     });
 
-    $("#projectsNav").on('click', function(event) {
+    $("#projectsNav , .projButton").on('click', function(event) {
       $(".toggler").prop("checked", false);
       $(".projects").fadeIn(400).removeClass("hidden"); 
       $(".container,.contact,.about").hide().addClass('hidden');     

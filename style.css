@@ -210,13 +210,13 @@ transform-style: preserve-3d;
 }
 
 .app-title{
-  font-size: 25px;
+  font-size: 26px;
   color: white;
   padding:10px;
 }
 
 .app-description {
-  font-size: 18px;
+  font-size: 21px;
   padding:10px;
 
 
@@ -291,6 +291,11 @@ transform-style: preserve-3d;
 
   }
   
+  .intro {
+    font-family: 'Roboto', sans-serif;
+      line-height: 1.4;
+      font-size: 27px;
+    }
   
   .project-container{
     border : 1px solid white;
@@ -330,6 +335,12 @@ transform-style: preserve-3d;
   justify-content: center;
 
 }
+  
+.intro {
+  font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-size: 19px;
+  }
 
 .all-projects-container{
 
@@ -360,9 +371,10 @@ transform-style: preserve-3d;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 50px;
-    margin-right: 370px;
-    margin-left:370px;
+     margin-top: 50px;
+     
+    margin-right: 12%;
+    margin-left:12%; 
    
   
    
