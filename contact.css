@@ -8,6 +8,7 @@
   .link2{
     text-decoration: none;
     color: #ec8c84;
+    cursor: pointer;
   }
 
   .hidden {
