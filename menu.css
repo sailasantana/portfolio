@@ -191,7 +191,7 @@
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     font-family: 'orpheuspro', serif; 
     padding: 1rem;
   }
@@ -224,10 +224,12 @@
   .showcase h1 {
     margin-left:12%;
     color: #ec8c84;
-    font-size: 8.0rem;
+    font-size: 6.0rem;
   }
 
-
+  .intro{
+    font-size: 22px;
+  }
   
 }
 
@@ -246,14 +248,10 @@
    
   }
 
-  .showcase h1 {
-   
-    color: #ec8c84;
-    font-size: 6.3rem;
-  }
+
 
   .intro{
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .container{

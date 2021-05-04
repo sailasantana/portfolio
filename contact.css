@@ -53,7 +53,7 @@
  .contactIcon{
    list-style: none;
    padding: 10px;
-   font-size: 22px;
+   font-size: 20px;
  } 
 
  .faContact{
@@ -76,7 +76,7 @@
   .subheading {
     padding-top: 30px;
     padding-bottom: 20px;
-    font-size: 23px;
+    font-size: 22px;
     text-align: center;
   
   }
@@ -85,7 +85,7 @@
   .socialIcon {
     list-style: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 17px;
     padding: 12px 16px;
     border: 1px solid rgb(236, 183, 183);
     border-radius: 50%;
